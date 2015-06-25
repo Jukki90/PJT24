@@ -1,0 +1,13 @@
+package com.example.tests;
+
+public class GroupData {
+	public String groupName;
+	public String header;
+	public String footer;
+
+	public GroupData(String nameGrup, String header, String footer) {
+		this.groupName = nameGrup;
+		this.header = header;
+		this.footer = footer;
+	}
+}

@@ -1,0 +1,23 @@
+package com.example.tests;
+
+import com.thoughtworks.selenium.*;
+import org.testng.annotations.*;
+import static org.testng.Assert.*;
+import java.util.regex.Pattern;
+
+public class TestCreateGroup extends SeleneseTestNgHelper {
+	@Test public void testCreateGroup() throws Exception {
+		selenium.open("/addressbookv4.1.4/");
+		selenium.click("link=groups");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("name=new");
+		selenium.waitForPageToLoad("30000");
+		selenium.type("name=group_name", "header");
+		selenium.type("name=group_header", "lalala");
+		selenium.type("name=group_footer", "comment");
+		selenium.click("name=submit");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("link=group page");
+		selenium.waitForPageToLoad("30000");
+	}
+}

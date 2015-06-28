@@ -1,0 +1,51 @@
+package com.example.tests;
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.Assert;
+
+import java.util.regex.Pattern;
+import java.util.concurrent.TimeUnit;
+
+import static org.hamcrest.CoreMatchers.*;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class TestCreateUser extends TestBase{
+
+
+  @Test
+  public void testAddUser() throws Exception {
+	openMainPage();
+    addNewUser();
+    UserData user = new UserData("Александр", "Македонский", "Македония", "84950002211", "89097778879", "alex@mail.ru", "30", "July", "356", "Alexander Army", "Вавилон");
+	fillUserAttributes(user);
+    pressSubmit();
+    openMainPage();
+  }
+
+  private void fillUserAttributes(UserData user) {
+		driver.findElement(By.name("firstname")).clear();
+	    driver.findElement(By.name("firstname")).sendKeys(user.firstName);
+	    driver.findElement(By.name("lastname")).clear();
+	    driver.findElement(By.name("lastname")).sendKeys(user.lastName);
+	    driver.findElement(By.name("address")).clear();
+	    driver.findElement(By.name("address")).sendKeys(user.address);
+	    driver.findElement(By.name("home")).clear();
+	    driver.findElement(By.name("home")).sendKeys(user.homePhone);
+	    driver.findElement(By.name("mobile")).clear();
+	    driver.findElement(By.name("mobile")).sendKeys(user.mobilePhone);
+	    driver.findElement(By.name("email")).clear();
+	    driver.findElement(By.name("email")).sendKeys(user.email);
+	    new Select(driver.findElement(By.name("bday"))).selectByVisibleText(user.birthDay);
+	    new Select(driver.findElement(By.name("bmonth"))).selectByVisibleText(user.birthMonth);
+	    driver.findElement(By.name("byear")).clear();
+	    driver.findElement(By.name("byear")).sendKeys(user.birthYear);
+	    new Select(driver.findElement(By.name("new_group"))).selectByVisibleText(user.group);
+	    driver.findElement(By.name("address2")).clear();
+	    driver.findElement(By.name("address2")).sendKeys(user.address2);
+	}
+}

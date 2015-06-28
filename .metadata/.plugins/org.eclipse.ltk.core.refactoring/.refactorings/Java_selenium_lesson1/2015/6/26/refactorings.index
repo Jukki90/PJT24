@@ -13,3 +13,28 @@
 1435189647789	Rename field 'groupName'
 1435190092055	Copy compilation unit
 1435190537867	Pull up members to 'TestBase'
+1435256812306	Extract method 'addNewUser'
+1435256851360	Extract method 'fillUserAttributes'
+1435256901427	Extract method 'submitUserCreation'
+1435256966785	Extract method 'goHome'
+1435257036022	Introduce Parameter Object
+1435257093250	Pull up 'goHome()' to 'TestBase'
+1435257986065	Rename method 'submitCreationGroupPage'
+1435258011784	Rename method 'pressButton'
+1435492765709	Move method 'fillUserAttributes'
+1435492915021	Delete element
+1435493374201	Pull up 'addNewUser()' to 'TestBase'
+1435494765301	Introduce parameter for 'fillUserAttributes'
+1435494788998	Introduce parameter for 'fillUserAttributes'
+1435494808669	Introduce parameter for 'fillUserAttributes'
+1435495364005	Introduce parameter for 'fillUserAttributes'
+1435495410260	Introduce parameter for 'fillUserAttributes'
+1435495429257	Introduce parameter for 'fillUserAttributes'
+1435495448195	Introduce parameter for 'fillUserAttributes'
+1435495463625	Introduce parameter for 'fillUserAttributes'
+1435495480561	Introduce parameter for 'fillUserAttributes'
+1435495498687	Introduce parameter for 'fillUserAttributes'
+1435495520430	Introduce parameter for 'fillUserAttributes'
+1435498209083	Introduce Parameter Object
+1435498356818	Extract local variable 'user'
+1435498800977	Pull up 'fillUserAttributes(UserData)' to 'TestBase'

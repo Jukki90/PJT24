@@ -6,8 +6,11 @@
 <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
 <listEntry value="com.example.tests.TestBase"/>
 <listEntry value="com.example.tests.AlsoTestCreateGroup"/>
+<listEntry value="com.example.tests.UserData"/>
+<listEntry value="com.example.tests.TestCreateUser"/>
 <listEntry value="com.example.tests.GroupData"/>
 <listEntry value="com.example.tests.TestCreateGroup"/>
+<listEntry value="com.example.tests.AlsoTestCreateUser"/>
 </listAttribute>
 <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
 <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>

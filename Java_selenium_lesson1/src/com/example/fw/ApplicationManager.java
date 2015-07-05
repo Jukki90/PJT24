@@ -34,7 +34,7 @@ public class ApplicationManager {
 	
 
 	public void stop() {
-		// TODO Auto-generated method stub
+		
 		  driver.quit();
 		    String verificationErrorString = verificationErrors.toString();
 		    if (!"".equals(verificationErrorString)) {

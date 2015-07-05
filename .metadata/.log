@@ -6312,3 +6312,1028 @@ java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\User
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 55984 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--808083311\testng-customsuite.xml
 java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 55984 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--808083311\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:29:59.429
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  [Working copy] UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  [Working copy] TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:29:59.516
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56388 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--904105259\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56388 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--904105259\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:30:33.220
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  [Working copy] UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  [Working copy] TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:30:33.306
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56423 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2128129428\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56423 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2128129428\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:30:54.809
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56455 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-907585366\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56455 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-907585366\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:31:13.144
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56511 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--375921640\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56511 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--375921640\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:36:12.368
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  [Working copy] UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  [Working copy] TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:36:13.682
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56700 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1410894411\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56700 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1410894411\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:38:49.297
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56791 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--408016143\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56791 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--408016143\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:39:13.362
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56819 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1076679083\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56819 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1076679083\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:39:50.617
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56859 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1716490663\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56859 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1716490663\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:40:06.197
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56921 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-214061532\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56921 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-214061532\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:40:20.099
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] AlsoTestCreateGroup.java [in com.example.tests [in src [in Java_selenium_lesson1]]]
+  package com.example.tests
+  import org.testng.annotations.Test
+  class AlsoTestCreateGroup
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:40:20.203
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56978 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-814116575\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56978 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-814116575\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:40:35.155
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57037 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--494414435\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57037 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--494414435\testng-customsuite.xml
+!SESSION 2015-07-05 19:42:07.960 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-05 19:42:42.422
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-05 19:42:42.426
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:42:48.155
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57093 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1949308075\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57093 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1949308075\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:43:46.945
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57114 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1180857253\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57114 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1180857253\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:45:29.688
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57144 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2044938822\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57144 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2044938822\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:45:57.875
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  UserData.java (not open)
+  GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  TestCreateUser.java (not open)
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  TestCreateGroup.java (not open)
+  AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:45:58.108
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57236 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-277233684\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57236 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-277233684\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:51:32.649
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57368 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1904598540\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57368 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1904598540\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:51:51.432
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57420 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-934494242\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57420 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-934494242\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:52:11.606
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:TestCreateUser.java [in com.example.tests [in src [in Java_selenium_lesson1]]]
+  package com.example.tests
+  import org.testng.annotations.Test
+  class TestCreateUser
+    void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:52:11.696
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57472 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-781764253\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57472 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-781764253\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:52:31.265
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57564 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1987814137\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57564 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1987814137\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:52:50.875
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57615 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-16760846\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57615 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-16760846\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:53:10.276
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57706 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2021608178\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57706 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2021608178\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:53:45.270
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57757 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2021746096\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57757 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2021746096\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:54:03.031
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:54:03.127
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57809 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1173239419\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57809 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1173239419\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:54:36.541
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:54:36.633
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57905 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-399322202\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57905 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-399322202\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:57:36.148
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:57:37.744
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58000 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1399946822\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58000 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1399946822\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:58:27.596
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:58:29.201
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58095 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--554700184\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58095 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--554700184\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:58:51.078
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:58:52.769
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58188 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1019446207\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58188 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1019446207\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 19:59:24.364
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58282 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1351204661\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58282 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1351204661\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 20:02:36.930
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 20:02:36.951
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58318 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1807090147\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58318 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1807090147\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 20:04:43.903
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 20:04:45.556
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58344 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1391040313\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58344 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1391040313\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 20:05:31.726
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 20:05:33.082
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58437 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--886741774\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58437 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--886741774\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 20:13:26.856
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] AlsoTestCreateGroup.java [in com.example.tests [in src [in Java_selenium_lesson1]]]
+  package com.example.tests
+  import org.testng.annotations.Test
+  class AlsoTestCreateGroup
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 20:13:26.909
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58561 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1729051627\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58561 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1729051627\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 20:18:23.898
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Java_selenium_lesson1]]
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.openqa.selenium.By
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  [Working copy] UserData.java
+    package com.example.tests
+    class UserData
+      String firstName
+      String lastName
+      String address
+      String homePhone
+      String mobilePhone
+      String email
+      String birthDay
+      String birthMonth
+      String birthYear
+      String group
+      String address2
+      UserData()
+      UserData(String, String, String, String, String, String, String, String, String, String, String)
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  TestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateUser
+      void testAddUser()
+  [Working copy] AlsoTestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateGroup
+      void testEmptyGroupCreation()
+  [Working copy] TestCreateGroup.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class TestCreateGroup
+      void testNonEmptyGroupCreation()
+  [Working copy] AlsoTestCreateUser.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class AlsoTestCreateUser
+      void testAddUser()
+
+!ENTRY org.testng.eclipse 1 0 2015-07-05 20:18:25.325
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58611 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--285464610\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58611 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--285464610\testng-customsuite.xml

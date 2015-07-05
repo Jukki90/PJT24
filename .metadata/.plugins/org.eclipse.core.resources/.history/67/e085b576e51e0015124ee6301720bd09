@@ -1,0 +1,37 @@
+package com.example.fw;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
+
+import com.example.tests.TestBase;
+import com.example.tests.UserData;
+
+public class ContactHelper {
+
+	public void fillUserAttributes(ApplicationManager applicationManager, TestBase testBase, UserData user) {
+		ApplicationManager.driver.findElement(By.name("firstname")).clear();
+	    ApplicationManager.driver.findElement(By.name("firstname")).sendKeys(user.firstName);
+	    ApplicationManager.driver.findElement(By.name("lastname")).clear();
+	    ApplicationManager.driver.findElement(By.name("lastname")).sendKeys(user.lastName);
+	    ApplicationManager.driver.findElement(By.name("address")).clear();
+	    ApplicationManager.driver.findElement(By.name("address")).sendKeys(user.address);
+	    ApplicationManager.driver.findElement(By.name("home")).clear();
+	    ApplicationManager.driver.findElement(By.name("home")).sendKeys(user.homePhone);
+	    ApplicationManager.driver.findElement(By.name("mobile")).clear();
+	    ApplicationManager.driver.findElement(By.name("mobile")).sendKeys(user.mobilePhone);
+	    ApplicationManager.driver.findElement(By.name("email")).clear();
+	    ApplicationManager.driver.findElement(By.name("email")).sendKeys(user.email);
+	    new Select(ApplicationManager.driver.findElement(By.name("bday"))).selectByVisibleText(user.birthDay);
+	    new Select(ApplicationManager.driver.findElement(By.name("bmonth"))).selectByVisibleText(user.birthMonth);
+	    ApplicationManager.driver.findElement(By.name("byear")).clear();
+	    ApplicationManager.driver.findElement(By.name("byear")).sendKeys(user.birthYear);
+	    new Select(ApplicationManager.driver.findElement(By.name("new_group"))).selectByVisibleText(user.group);
+	    ApplicationManager.driver.findElement(By.name("address2")).clear();
+	    ApplicationManager.driver.findElement(By.name("address2")).sendKeys(user.address2);
+	}
+
+	public void addNewUser() {
+		ApplicationManager.driver.findElement(By.linkText("add new")).click();
+	}
+
+}

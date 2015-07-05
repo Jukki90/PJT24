@@ -5,8 +5,8 @@
 <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
 <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
 <listEntry value="com.example.tests.TestBase"/>
-<listEntry value="com.example.tests.AlsoTestCreateGroup"/>
 <listEntry value="com.example.tests.UserData"/>
+<listEntry value="com.example.tests.AlsoTestCreateGroup"/>
 <listEntry value="com.example.tests.TestCreateUser"/>
 <listEntry value="com.example.tests.GroupData"/>
 <listEntry value="com.example.tests.TestCreateGroup"/>

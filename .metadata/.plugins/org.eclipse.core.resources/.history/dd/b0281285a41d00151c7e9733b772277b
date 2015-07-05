@@ -1,0 +1,85 @@
+package com.example.fw;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.support.ui.Select;
+
+import com.example.tests.GroupData;
+import com.example.tests.TestBase;
+import com.example.tests.UserData;
+
+public class ApplicationManager {
+
+	public void pressSubmit() {
+		TestBase.driver.findElement(By.name("submit")).click();
+	}
+
+	public void fillGroupPage(TestBase testBase, GroupData parameterObject) {
+		TestBase.driver.findElement(By.name("group_name")).clear();
+	    TestBase.driver.findElement(By.name("group_name")).sendKeys(parameterObject.name);
+	    TestBase.driver.findElement(By.name("group_header")).clear();
+	    TestBase.driver.findElement(By.name("group_header")).sendKeys(parameterObject.header);
+	    TestBase.driver.findElement(By.name("group_footer")).clear();
+	    TestBase.driver.findElement(By.name("group_footer")).sendKeys(parameterObject.footer);
+	}
+
+	public void openGroupPage() {
+		TestBase.driver.findElement(By.linkText("groups")).click();
+	}
+
+	public void openMainPage() {
+		TestBase.driver.get(TestBase.baseUrl + "/addressbookv4.1.4/");
+	}
+
+	public void fillUserAttributes(TestBase testBase, UserData user) {
+		TestBase.driver.findElement(By.name("firstname")).clear();
+	    TestBase.driver.findElement(By.name("firstname")).sendKeys(user.firstName);
+	    TestBase.driver.findElement(By.name("lastname")).clear();
+	    TestBase.driver.findElement(By.name("lastname")).sendKeys(user.lastName);
+	    TestBase.driver.findElement(By.name("address")).clear();
+	    TestBase.driver.findElement(By.name("address")).sendKeys(user.address);
+	    TestBase.driver.findElement(By.name("home")).clear();
+	    TestBase.driver.findElement(By.name("home")).sendKeys(user.homePhone);
+	    TestBase.driver.findElement(By.name("mobile")).clear();
+	    TestBase.driver.findElement(By.name("mobile")).sendKeys(user.mobilePhone);
+	    TestBase.driver.findElement(By.name("email")).clear();
+	    TestBase.driver.findElement(By.name("email")).sendKeys(user.email);
+	    new Select(TestBase.driver.findElement(By.name("bday"))).selectByVisibleText(user.birthDay);
+	    new Select(TestBase.driver.findElement(By.name("bmonth"))).selectByVisibleText(user.birthMonth);
+	    TestBase.driver.findElement(By.name("byear")).clear();
+	    TestBase.driver.findElement(By.name("byear")).sendKeys(user.birthYear);
+	    new Select(TestBase.driver.findElement(By.name("new_group"))).selectByVisibleText(user.group);
+	    TestBase.driver.findElement(By.name("address2")).clear();
+	    TestBase.driver.findElement(By.name("address2")).sendKeys(user.address2);
+	}
+
+	public void addNewUser() {
+		TestBase.driver.findElement(By.linkText("add new")).click();
+	}
+
+	public boolean isAlertPresent() {
+	    try {
+	      TestBase.driver.switchTo().alert();
+	      return true;
+	    } catch (NoAlertPresentException e) {
+	      return false;
+	    }
+	  }
+
+	public String closeAlertAndGetItsText() {
+	    try {
+	      Alert alert = TestBase.driver.switchTo().alert();
+	      String alertText = alert.getText();
+	      if (TestBase.acceptNextAlert) {
+	        alert.accept();
+	      } else {
+	        alert.dismiss();
+	      }
+	      return alertText;
+	    } finally {
+	      TestBase.acceptNextAlert = true;
+	    }
+	  }
+
+}

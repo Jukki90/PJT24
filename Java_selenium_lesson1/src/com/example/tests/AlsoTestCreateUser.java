@@ -1,26 +1,14 @@
 package com.example.tests;
 
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-import org.testng.Assert;
-
-import java.util.regex.Pattern;
-import java.util.concurrent.TimeUnit;
-
-import static org.hamcrest.CoreMatchers.*;
-
-import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
 
 public class AlsoTestCreateUser extends TestBase{
  
 
   @Test
   public void testAddUser() throws Exception {
-	openMainPage();
-	addNewUser();
+	app.getNavigationHelper().openMainPage();
+	app.getContactHelper().addNewUser();
     UserData user = new UserData();
     user.firstName="Воин";
     user.lastName="Македонский";
@@ -34,9 +22,9 @@ public class AlsoTestCreateUser extends TestBase{
     user.group="Alexander Army";
     user.address2="Македонская Империя";
     
-    fillUserAttributes(user);
-    pressSubmit();
-    openMainPage();
+    app.contactHelper.fillUserAttributes(app, this, user);
+    app.pressSubmit();
+    app.getNavigationHelper().openMainPage();
   }
 
 

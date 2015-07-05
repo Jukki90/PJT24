@@ -1,0 +1,25 @@
+package com.example.tests;
+
+import org.testng.annotations.Test;
+
+public class TestCreateGroup extends TestBase {
+ 
+
+	
+  @Test
+  public void testNonEmptyGroupCreation() throws Exception {
+
+    app.openMainPage();
+    app.openGroupPage();
+    app.createGroup();
+    GroupData group = new GroupData();
+    group.name="Alexander Army";
+    group.header="header 1";
+    group.footer="footer 1";
+	app.fillGroupPage(this, group);
+    app.pressSubmit();
+   // app.openMainPage();
+  }
+
+
+}

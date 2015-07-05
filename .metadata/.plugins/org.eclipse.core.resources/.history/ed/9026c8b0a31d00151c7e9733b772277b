@@ -1,0 +1,31 @@
+package com.example.fw;
+
+import org.openqa.selenium.By;
+
+import com.example.tests.GroupData;
+import com.example.tests.TestBase;
+
+public class ApplicationManager {
+
+	public void pressSubmit() {
+		TestBase.driver.findElement(By.name("submit")).click();
+	}
+
+	public void fillGroupPage(TestBase testBase, GroupData parameterObject) {
+		TestBase.driver.findElement(By.name("group_name")).clear();
+	    TestBase.driver.findElement(By.name("group_name")).sendKeys(parameterObject.name);
+	    TestBase.driver.findElement(By.name("group_header")).clear();
+	    TestBase.driver.findElement(By.name("group_header")).sendKeys(parameterObject.header);
+	    TestBase.driver.findElement(By.name("group_footer")).clear();
+	    TestBase.driver.findElement(By.name("group_footer")).sendKeys(parameterObject.footer);
+	}
+
+	public void openGroupPage() {
+		TestBase.driver.findElement(By.linkText("groups")).click();
+	}
+
+	public void openMainPage() {
+		TestBase.driver.get(TestBase.baseUrl + "/addressbookv4.1.4/");
+	}
+
+}

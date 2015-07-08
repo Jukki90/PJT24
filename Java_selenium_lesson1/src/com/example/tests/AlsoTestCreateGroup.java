@@ -9,10 +9,10 @@ public class AlsoTestCreateGroup extends TestBase{
   public void testEmptyGroupCreation() throws Exception {
     app.getNavigationHelper().openMainPage();
     app.getGroupHelper().openGroupPage();
-    app.getNavigationHelper().createGroup();
+    app.getGroupHelper().createGroup();
     app.getGroupHelper().fillGroupPage(new GroupData("", "", ""));
-    app.pressSubmit();
-    app.getNavigationHelper().openMainPage();
+    app.getGroupHelper().submitGroupCreation();
+    app.getGroupHelper().returnToGroupPage();
   }
   
 

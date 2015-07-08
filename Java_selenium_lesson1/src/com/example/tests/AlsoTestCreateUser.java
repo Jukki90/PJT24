@@ -22,9 +22,9 @@ public class AlsoTestCreateUser extends TestBase{
     user.group="Alexander Army";
     user.address2="Македонская Империя";
     
-    app.contactHelper.fillUserAttributes(app, this, user);
-    app.pressSubmit();
-    app.getNavigationHelper().openMainPage();
+    app.contactHelper.fillUserAttributes(user);
+    app.getContactHelper().submitContactCreation();
+    app.getContactHelper().returnToHomePage();
   }
 
 

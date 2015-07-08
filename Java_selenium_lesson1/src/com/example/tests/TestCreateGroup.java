@@ -11,14 +11,14 @@ public class TestCreateGroup extends TestBase {
 
 	app.getNavigationHelper().openMainPage();
     app.getGroupHelper().openGroupPage();
-    app.getNavigationHelper().createGroup();
+    app.getGroupHelper().createGroup();
     GroupData group = new GroupData();
     group.name="Alexander Army";
     group.header="header 1";
     group.footer="footer 1";
     app.getGroupHelper().fillGroupPage(group);
-    app.pressSubmit();
-    app.getNavigationHelper().openMainPage();
+    app.getGroupHelper().submitGroupCreation();
+    app.getGroupHelper().returnToGroupPage();
   }
 
 

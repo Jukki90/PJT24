@@ -13,30 +13,54 @@ public class ContactHelper extends HelperBase{
 	}
 
 
-	public void fillUserAttributes(ApplicationManager manager, TestBase testBase, UserData user) {
-		driver.findElement(By.name("firstname")).clear();
-	    driver.findElement(By.name("firstname")).sendKeys(user.firstName);
-	    driver.findElement(By.name("lastname")).clear();
-	    driver.findElement(By.name("lastname")).sendKeys(user.lastName);
-	    driver.findElement(By.name("address")).clear();
-	    driver.findElement(By.name("address")).sendKeys(user.address);
-	    driver.findElement(By.name("home")).clear();
-	    driver.findElement(By.name("home")).sendKeys(user.homePhone);
-	    driver.findElement(By.name("mobile")).clear();
-	    driver.findElement(By.name("mobile")).sendKeys(user.mobilePhone);
-	    driver.findElement(By.name("email")).clear();
-	    driver.findElement(By.name("email")).sendKeys(user.email);
-	    new Select(driver.findElement(By.name("bday"))).selectByVisibleText(user.birthDay);
-	    new Select(driver.findElement(By.name("bmonth"))).selectByVisibleText(user.birthMonth);
-	    driver.findElement(By.name("byear")).clear();
-	    driver.findElement(By.name("byear")).sendKeys(user.birthYear);
-	    new Select(driver.findElement(By.name("new_group"))).selectByVisibleText(user.group);
-	    driver.findElement(By.name("address2")).clear();
-	    driver.findElement(By.name("address2")).sendKeys(user.address2);
+	public void fillUserAttributes( UserData user) {
+		type(By.name("firstname"), user.firstName);
+		type(By.name("lastname"), user.lastName);
+		type(By.name("address"), user.address);
+		type(By.name("home"), user.homePhone);
+		type(By.name("mobile"), user.mobilePhone);
+		type(By.name("email"), user.email);
+		type(By.name("byear"), user.birthYear);
+		type(By.name("address2"), user.address2);
+		
+	    selectByText(By.name("bday"), user.birthDay);
+	    selectByText(By.name("bmonth"), user.birthMonth);
+	    
+	    selectByText(By.name("new_group"), user.group);
+	  
 	}
 
+
+
+
 	public void addNewUser() {
-		driver.findElement(By.linkText("add new")).click();
+		click(By.linkText("add new"));
+	}
+	
+	public void deleteContact(int index) {
+		initContactModification(index);
+		click(By.xpath("//input[@value='Delete']"));
+		
+	}
+
+
+	public void SubmitContactModification() {
+		click(By.xpath("//input[@value='Update']"));
+	}
+	
+	public void initContactModification(int index) {
+		++index;
+		click(By.xpath("(//img[@alt='Edit'])["+index+"]"));
+		
+		
+	}
+	
+	public void returnToHomePage() {
+		click(By.linkText("home page"));
+	}
+	
+	public void submitContactCreation() {
+		driver.findElement(By.name("submit")).click();
 	}
 
 }

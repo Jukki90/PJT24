@@ -13,8 +13,6 @@ public class NavigationHelper extends HelperBase {
 		driver.get(manager.baseUrl + "/addressbookv4.1.4/");
 	}
 
-	public void createGroup() {
-		driver.findElement(By.name("new")).click();
-	}
+
 
 }

@@ -15,7 +15,7 @@ public class GroupModificationTests extends TestBase{
 		 //save old state
 	    List<GroupData> oldList = app.getGroupHelper().getGroups();
 	    //actions
-		app.getGroupHelper().initGroupModification(0);
+		app.getGroupHelper().initGroupModification(1);
 		GroupData group = new GroupData();
 		group.name="New name";
 		app.getGroupHelper().fillGroupPage(group);

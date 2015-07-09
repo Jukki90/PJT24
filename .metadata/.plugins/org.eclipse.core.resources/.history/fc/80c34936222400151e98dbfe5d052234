@@ -1,0 +1,32 @@
+package com.example.tests;
+
+import org.testng.annotations.Test;
+
+public class AlsoTestCreateUser extends TestBase{
+ 
+
+  @Test
+  public void testAddUser() throws Exception {
+	app.getNavigationHelper().openMainPage();
+	app.getContactHelper().addNewUser();
+    UserData user = new UserData();
+    user.firstName="Воин";
+    user.lastName="Македонский";
+    user.address="Македония";
+    user.homePhone="84959002211";
+    user.mobilePhone="89197778879";
+    user.email="army@mail.ru";
+    user.birthDay="11";
+    user.birthMonth="July";
+    user.birthYear="360";
+    user.group="Alexander Army";
+    user.address2="Македонская Империя";
+    
+    app.contactHelper.fillUserAttributes(app, this, user);
+    app.pressSubmit();
+    app.getNavigationHelper().openMainPage();
+  }
+
+
+
+}

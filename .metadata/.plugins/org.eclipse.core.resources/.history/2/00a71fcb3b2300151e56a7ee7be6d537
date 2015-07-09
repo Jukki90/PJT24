@@ -1,0 +1,27 @@
+package com.example.fw;
+
+import org.openqa.selenium.By;
+
+import com.example.tests.GroupData;
+import com.example.tests.TestBase;
+
+public class GroupHelper extends HelperBase{
+	public GroupHelper(ApplicationManager manager) {
+		super(manager);
+		
+	}
+
+	public void openGroupPage() {
+		driver.findElement(By.linkText("groups")).click();
+	}
+
+	public void fillGroupPage(GroupData groupData) {
+		driver.findElement(By.name("group_name")).clear();
+	    driver.findElement(By.name("group_name")).sendKeys(groupData.name);
+	    driver.findElement(By.name("group_header")).clear();
+	    driver.findElement(By.name("group_header")).sendKeys(groupData.header);
+	    driver.findElement(By.name("group_footer")).clear();
+	    driver.findElement(By.name("group_footer")).sendKeys(groupData.footer);
+	}
+
+}

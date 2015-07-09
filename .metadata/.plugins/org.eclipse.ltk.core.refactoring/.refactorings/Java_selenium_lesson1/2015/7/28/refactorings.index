@@ -1,0 +1,12 @@
+1436216208788	Extract local variable 'locator'
+1436216243920	Extract local variable 'text'
+1436216289220	Extract method 'selectByText'
+1436216299324	Inline local variable 'locator'
+1436216309214	Inline local variable 'text'
+1436342465483	Extract method 'selectGroupByIndex'
+1436350926929	Rename method 'editContactByIndex'
+1436351322434	Rename method 'pressEditIconByIndex'
+1436351472764	Rename type 'ContactEditTests'
+1436351646342	Extract method 'SubmitContactModification'
+1436385930895	Extract local variable 'group'
+1436386005746	Delete element

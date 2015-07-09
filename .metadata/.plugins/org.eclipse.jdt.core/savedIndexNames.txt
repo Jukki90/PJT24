@@ -9,7 +9,6 @@ INDEX VERSION 1.127+D:\Study\Java\GitHub\PJT24\.metadata\.plugins\org.eclipse.jd
 3954291735.index
 3656756579.index
 2573645981.index
-3816245808.index
 3045053200.index
 3334059433.index
 994834796.index

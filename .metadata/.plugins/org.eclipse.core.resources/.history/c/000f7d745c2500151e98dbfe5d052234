@@ -1,0 +1,12 @@
+package com.example.tests;
+
+import org.testng.annotations.Test;
+
+public class ContactEditTests extends TestBase {
+	@Test
+	public void deleteSomeContact(){
+		app.getNavigationHelper().openMainPage();
+		app.getContactHelper().deleteContact(2);///!!!!
+		app.getContactHelper().returnToHomePage();
+	}
+}

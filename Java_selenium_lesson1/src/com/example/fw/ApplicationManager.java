@@ -25,7 +25,13 @@ public class ApplicationManager {
 	    baseUrl = "http://localhost:8081/";
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
-
+/*
+	public void pressSubmit() {
+		driver.findElement(By.name("submit")).click();
+	}
+*/
+	
+	
 
 	public void stop() {
 		

@@ -79,7 +79,7 @@ public class ContactHelper extends HelperBase{
 			String flarr[]=flname.split(" ");
 			user.firstName=flarr[0];
 			user.lastName=flarr[1];
-			user.email=checkbox.getAttribute("accept");
+			//user.email=checkbox.getAttribute("accept");
 			users.add(user);
 		}
 		

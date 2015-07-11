@@ -15,10 +15,10 @@ public class ContactModificationTests extends TestBase {
 		//save old state
 	    List<UserData> oldList = app.getContactHelper().getContacts();
 	    //actions
-		app.getContactHelper().initContactModification(0);
+		app.getContactHelper().initContactModification(1);
 		UserData user = new UserData();
-		
-		user.firstName="Ленин";
+		user =oldList.get(0);
+		user.firstName="Сталин";
 		app.contactHelper.fillUserAttributes( user);
 		app.getContactHelper().SubmitContactModification();
 		app.getContactHelper().returnToHomePage();
@@ -27,8 +27,7 @@ public class ContactModificationTests extends TestBase {
 	    List<UserData> newList = app.getContactHelper().getContacts();
 	    
 	    //compare states
-	    user.lastName =oldList.get(0).lastName;
-	    user.email =oldList.get(0).email;
+	    
 	    
 	    oldList.remove(0);
 	    oldList.add(user);

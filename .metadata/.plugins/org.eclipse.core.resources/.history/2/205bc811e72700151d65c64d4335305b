@@ -81,15 +81,8 @@ public class UserData implements Comparable<UserData>{
 	}
 
 	@Override
-	public int compareTo(UserData other) {
-		int i;
-		i= this.lastName.toLowerCase().compareTo(other.lastName.toLowerCase());
-	    if (i != 0) return i;
-		return this.firstName.toLowerCase().compareTo(other.firstName.toLowerCase());
-		
-
-		
-		//return this.lastName.toLowerCase().compareTo(other.lastName.toLowerCase());
+	public int compareTo(UserData arg0) {
+		return this.lastName.toLowerCase().compareTo(other.lastName.toLowerCase());
 		
 	}
 	

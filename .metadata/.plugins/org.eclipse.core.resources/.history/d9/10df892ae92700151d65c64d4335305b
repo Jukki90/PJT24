@@ -85,10 +85,10 @@ public class UserData implements Comparable<UserData>{
 		int i;
 		i= this.lastName.toLowerCase().compareTo(other.lastName.toLowerCase());
 	    if (i != 0) return i;
-		return this.firstName.toLowerCase().compareTo(other.firstName.toLowerCase());
-		
+		i = this.firstName.toLowerCase().compareTo(other.firstName.toLowerCase());
+		if (i != 0) return i;
 
-		
+		return this.email.toLowerCase().compareTo(other.email.toLowerCase());
 		//return this.lastName.toLowerCase().compareTo(other.lastName.toLowerCase());
 		
 	}

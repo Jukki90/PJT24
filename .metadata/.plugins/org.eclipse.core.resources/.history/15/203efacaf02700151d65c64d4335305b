@@ -28,7 +28,6 @@ public class ContactModificationTests extends TestBase {
 	    
 	    //compare states
 	    user.lastName =oldList.get(0).lastName;
-	    user.email =oldList.get(0).email;
 	    
 	    oldList.remove(0);
 	    oldList.add(user);

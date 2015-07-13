@@ -10,15 +10,15 @@ import org.testng.annotations.Test;
 public class TestCreateUser extends TestBase{
 
 
-  @Test
-  public void testAddUser() throws Exception {
+  @Test(dataProvider="randomValidContactGenerator")
+  public void testAddUser(UserData user) throws Exception {
 	app.getNavigationHelper().openMainPage();
 	
 	//save old state
     List<UserData> oldList = app.getContactHelper().getContacts();
     //actions
     app.getContactHelper().addNewUser();
-    UserData user = new UserData();
+    /*UserData user = new UserData();
     
     user.firstName="Филипп";
     user.lastName="Македонский";
@@ -31,6 +31,7 @@ public class TestCreateUser extends TestBase{
     user.birthYear="356";
     user.group="Alexander Army";
     user.address2="Вавилон";
+    */
     
     app.contactHelper.fillUserAttributes(user);
     app.getContactHelper().submitContactCreation();

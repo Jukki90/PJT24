@@ -11,14 +11,13 @@ import com.example.tests.GroupData;
 import com.example.tests.TestBase;
 import com.example.tests.UserData;
 
-public class ContactHelper extends HelperBase{
+public class ContactHelper extends HelperBase {
 	public ContactHelper(ApplicationManager manager) {
 		super(manager);
 		// TODO Auto-generated constructor stub
 	}
 
-
-	public void fillUserAttributes( UserData user) {
+	public void fillUserAttributes(UserData user) {
 		type(By.name("firstname"), user.firstName);
 		type(By.name("lastname"), user.lastName);
 		type(By.name("address"), user.address);
@@ -27,63 +26,76 @@ public class ContactHelper extends HelperBase{
 		type(By.name("email"), user.email);
 		type(By.name("byear"), user.birthYear);
 		type(By.name("address2"), user.address2);
-		
-	    selectByText(By.name("bday"), user.birthDay);
-	    selectByText(By.name("bmonth"), user.birthMonth);
-	    
-	    selectByText(By.name("new_group"), user.group);
-	  
+
+		selectByText(By.name("bday"), user.birthDay);
+		selectByText(By.name("bmonth"), user.birthMonth);
+
+		selectByText(By.name("new_group"), user.group);
+
 	}
-
-
-
 
 	public void addNewUser() {
 		click(By.linkText("add new"));
 	}
-	
+
 	public void deleteContact(int index) {
 		initContactModification(index);
 		click(By.xpath("//input[@value='Delete']"));
-		
-	}
 
+	}
 
 	public void SubmitContactModification() {
 		click(By.xpath("//input[@value='Update']"));
 	}
-	
+
 	public void initContactModification(int index) {
 		++index;
-		click(By.xpath("(//img[@alt='Edit'])["+index+"]"));
-		
-		
+		click(By.xpath("(//img[@alt='Edit'])[" + index + "]"));
+
 	}
-	
+
 	public void returnToHomePage() {
 		click(By.linkText("home page"));
 	}
-	
+
 	public void submitContactCreation() {
 		driver.findElement(By.name("submit")).click();
 	}
-	
+
 	public List<UserData> getContacts() {
-		List<UserData> users = new ArrayList<UserData>();
-		List<WebElement> checkboxes = driver.findElements(By.name("selected[]"));
-		for (WebElement checkbox : checkboxes){
-			UserData user = new UserData();
-			String title=checkbox.getAttribute("title");
-			//title.substring("Select (".length(), title.length()-")".length());
-			String flname=title.substring("Select (".length(), title.length()-")".length());
-			String flarr[]=flname.split(" ");
-			user.firstName=flarr[0];
-			user.lastName=flarr[1];
-			user.email=checkbox.getAttribute("accept");
-			users.add(user);
-		}
-		
-		return users;
+		  List<UserData> contacts = new ArrayList<UserData>();  
+		  
+		  
+		  WebElement table = driver.findElement(By.id("maintable")); 
+		// Now get all the TR elements from the table 
+
+		  //List<WebElement> allRows = table.findElements(By.tagName("tr")); 
+		  List<WebElement> allRows = table.findElements(By.xpath("//tr[@name='entry']")); 
+
+		  // And iterate over them, getting the cells 
+
+		  for (WebElement row : allRows) {
+			  UserData contact = new UserData();
+			  
+		   List<WebElement> cells = row.findElements(By.tagName("td")); 
+		   	contact.id=cells.get(0).getText();
+		   	contact.lastName=cells.get(1).getText();
+		   	contact.firstName=cells.get(2).getText();
+		   	contact.email=cells.get(3).getText();
+		   	contact.mobilePhone=cells.get(4).getText();
+		   	
+		    //for (WebElement cell : cells) { 
+
+		      // And so on 
+		   //	if (contact.id!="1"){
+		   		contacts.add(contact);
+		   	//}
+
+		    } 
+	  
+		  return contacts;
 	}
+		
+		
 
 }

@@ -12,7 +12,7 @@ public class UserData implements Comparable<UserData>{
 	public String birthYear;
 	public String group;
 	public String address2;
-	
+	public String id;
 	
 	public UserData() {
 		
@@ -62,11 +62,12 @@ public class UserData implements Comparable<UserData>{
 		if (getClass() != obj.getClass())
 			return false;
 		UserData other = (UserData) obj;
-		if (email == null) {
+	/*	if (email == null) {
 			if (other.email != null)
 				return false;
 		} else if (!email.equals(other.email))
 			return false;
+			*/
 		if (firstName == null) {
 			if (other.firstName != null)
 				return false;

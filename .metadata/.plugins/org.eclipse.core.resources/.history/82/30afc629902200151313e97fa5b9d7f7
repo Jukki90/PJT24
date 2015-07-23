@@ -1,9 +1,0 @@
-package com.example.fw;
-
-public abstract class HelperBase {
-	public ApplicationManager manager;
-	public HelperBase(ApplicationManager manager) {
-		this.manager=manager;
-		// TODO Auto-generated constructor stub
-	}
-}

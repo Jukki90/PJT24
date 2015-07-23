@@ -34,11 +34,11 @@ public class TestBase {
 	public Iterator<Object[]> randomValidGroupGenerator() {
 		List<Object[]> list = new ArrayList<Object[]>();
 		
-		for(int i=0; i<5;i++){
-			GroupData group = new GroupData();
-			group.name=generateRandomString();
-			group.header=generateRandomString();
-			group.footer=generateRandomString();
+		for(int i=0; i<3;i++){
+			GroupData group = new GroupData()
+			.withName(generateRandomString())
+			.withHeader(generateRandomString())
+			.withFooter(generateRandomString()); 
 			list.add(new Object[]{group});
 					
 		}
@@ -48,11 +48,15 @@ public class TestBase {
 	
 	
 
+
+
+
+
 	@DataProvider
 	public Iterator<Object[]> randomValidContactGenerator() {
 		List<Object[]> list = new ArrayList<Object[]>();
 		
-		for(int i=0; i<5;i++){
+		for(int i=0; i<3;i++){
 			UserData user = new UserData();
 			user.firstName=generateRandomString();
 			user.lastName=generateRandomString();
@@ -106,7 +110,7 @@ public class TestBase {
 		};
 		
 		Random rnd= new Random();
-		return arr[rnd.nextInt(12)];
+		return arr[rnd.nextInt(11)];
 	}
 
 

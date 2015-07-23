@@ -10,3 +10,8 @@
 1436351646342	Extract method 'SubmitContactModification'
 1436385930895	Extract local variable 'group'
 1436386005746	Delete element
+1436639786610	Delete element
+1436644329648	Pull up members to 'TestBase'
+1436649609982	Delete element
+1436649638859	Delete element
+1436727087614	Rename method 'deleteSomeContact'

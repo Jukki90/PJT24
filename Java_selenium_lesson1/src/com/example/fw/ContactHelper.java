@@ -10,14 +10,59 @@ import org.openqa.selenium.support.ui.Select;
 import com.example.tests.GroupData;
 import com.example.tests.TestBase;
 import com.example.tests.UserData;
+import com.example.utils.SortedListOf;
 
 public class ContactHelper extends HelperBase {
+	public static boolean CREATION=true;
+	public static boolean MODIFICATION=false;
+	
 	public ContactHelper(ApplicationManager manager) {
 		super(manager);
-		// TODO Auto-generated constructor stub
 	}
+	
+	//------High-level methods--------------------------------------------
+	
+	public SortedListOf<UserData> cachedContacts; 
+		
+		public SortedListOf<UserData> getContacts() {
+			if (cachedContacts == null){
+				rebuildCache();
+			}
+			return cachedContacts;
+		}
+	
+	
+	private void rebuildCache(){
+		
+		cachedContacts= new SortedListOf<UserData>();  
+		  
+		  
+		  WebElement table = driver.findElement(By.id("maintable")); 
+		// Now get all the TR elements from the table  
+		  List<WebElement> allRows = table.findElements(By.xpath("//tr[@name='entry']")); 
 
-	public void fillUserAttributes(UserData user) {
+		  // And iterate over them, getting the cells 
+		  for (WebElement row : allRows) {
+			  UserData contact = new UserData();
+			  
+		   List<WebElement> cells = row.findElements(By.tagName("td")); 
+		   	contact.id=cells.get(0).getText();
+		   	contact.lastName=cells.get(1).getText();
+		   	contact.firstName=cells.get(2).getText();
+		   	contact.email=cells.get(3).getText();
+		   	contact.mobilePhone=cells.get(4).getText();
+		   	
+
+		   	cachedContacts.add(contact);
+		   	
+
+		    } 
+	}
+	
+	
+	//------Low-level methods--------------------------------------------
+
+	public void fillUserAttributes(UserData user, boolean formType) {
 		type(By.name("firstname"), user.firstName);
 		type(By.name("lastname"), user.lastName);
 		type(By.name("address"), user.address);
@@ -31,7 +76,14 @@ public class ContactHelper extends HelperBase {
 		selectByText(By.name("bmonth"), user.birthMonth);
 
 		selectByText(By.name("new_group"), user.group);
-
+		
+		if (formType==CREATION){
+			
+		}else{
+			if (driver.findElements(By.name("new_group")).size()!=0){
+				throw new Error("Group selector exists in contact modification form");
+			}
+		}
 	}
 
 	public void addNewUser() {
@@ -62,39 +114,7 @@ public class ContactHelper extends HelperBase {
 		driver.findElement(By.name("submit")).click();
 	}
 
-	public List<UserData> getContacts() {
-		  List<UserData> contacts = new ArrayList<UserData>();  
-		  
-		  
-		  WebElement table = driver.findElement(By.id("maintable")); 
-		// Now get all the TR elements from the table 
-
-		  //List<WebElement> allRows = table.findElements(By.tagName("tr")); 
-		  List<WebElement> allRows = table.findElements(By.xpath("//tr[@name='entry']")); 
-
-		  // And iterate over them, getting the cells 
-
-		  for (WebElement row : allRows) {
-			  UserData contact = new UserData();
-			  
-		   List<WebElement> cells = row.findElements(By.tagName("td")); 
-		   	contact.id=cells.get(0).getText();
-		   	contact.lastName=cells.get(1).getText();
-		   	contact.firstName=cells.get(2).getText();
-		   	contact.email=cells.get(3).getText();
-		   	contact.mobilePhone=cells.get(4).getText();
-		   	
-		    //for (WebElement cell : cells) { 
-
-		      // And so on 
-		   //	if (contact.id!="1"){
-		   		contacts.add(contact);
-		   	//}
-
-		    } 
-	  
-		  return contacts;
-	}
+	
 		
 		
 

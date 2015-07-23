@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class ContactRemovalTests extends TestBase{
 	@Test
 	public void deleteSomeContact(){
-		app.getNavigationHelper().openMainPage();
+		app.navigateTo().mainPage();
 		//save old state
 	    List<UserData> oldList = app.getContactHelper().getContacts();
 	    //actions

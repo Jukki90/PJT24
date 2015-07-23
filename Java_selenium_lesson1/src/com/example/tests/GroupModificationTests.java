@@ -1,41 +1,44 @@
 package com.example.tests;
 
 import static org.testng.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 import java.util.Collections;
-import java.util.List;
 import java.util.Random;
 
+import com.example.utils.SortedListOf;
+
+import static org.hamcrest.Matchers.*;
+
 import org.testng.annotations.Test;
+
+import com.example.utils.SortedListOf;
 
 public class GroupModificationTests extends TestBase{
 	@Test(dataProvider="randomValidGroupGenerator")
 	public void modifySomeGroup(GroupData group){
-		app.getNavigationHelper().openMainPage();
-		app.getGroupHelper().openGroupPage();
+		//app.navigateTo().mainPage();
+		//app.getGroupHelper().openGroupPage();
 		 //save old state
-	    List<GroupData> oldList = app.getGroupHelper().getGroups();
+		SortedListOf<GroupData> oldList = app.getGroupHelper().getGroups();
 	    //actions
 	    Random rnd=new Random();
-	    int index = rnd.nextInt(oldList.size())-1;
-		app.getGroupHelper().initGroupModification(index);
-		//GroupData group = new GroupData();
-		group.name="New my name";
-		app.getGroupHelper().fillGroupPage(group);
-		app.getGroupHelper().submitGroupModification();
-		app.getGroupHelper().returnToGroupPage();
+	    int index = rnd.nextInt(oldList.size());
+	    
+	    
+	    
+	    
+		app.getGroupHelper().modifyGroup(index, group);
+		
 		 
 	    //save new state
-	    List<GroupData> newList = app.getGroupHelper().getGroups();
+		SortedListOf<GroupData> newList = app.getGroupHelper().getGroups();
 	    
 	    
 	    //compare states
-	    oldList.remove(index);
-	    oldList.add(group);
-	    Collections.sort(newList);
-	    Collections.sort(oldList);
-	    
-	    assertEquals(newList,oldList);
+		assertThat(newList, equalTo(oldList.without(index).withAdded(group)));
+		
+	   
 	    
 	}
 }

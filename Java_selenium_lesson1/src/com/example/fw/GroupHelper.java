@@ -1,6 +1,6 @@
 package com.example.fw;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -9,73 +9,140 @@ import org.openqa.selenium.WebElement;
 import com.example.tests.GroupData;
 import com.example.tests.TestBase;
 
+import com.example.utils.SortedListOf;
+
 public class GroupHelper extends HelperBase{
 	public GroupHelper(ApplicationManager manager) {
 		super(manager);
 		
 	}
-
-	public void openGroupPage() {
-		click(By.linkText("groups"));
-	}
 	
-	public void createGroup() {
-		driver.findElement(By.name("new")).click();
+	
+	public SortedListOf<GroupData> cachedGroups; 
+	
+	public SortedListOf<GroupData> getGroups() {
+		if (cachedGroups == null){
+			rebuildCache();
+		}
+		
+		return cachedGroups;
 		
 	}
-	
-	public void returnToGroupPage() {
-		click(By.linkText("group page"));
+
+
+	private void rebuildCache() {
+		//SortedListOf<GroupData> cashedGroups = new SortedListOf<GroupData>();
+		cachedGroups = new SortedListOf<GroupData>();
+		manager.navigateTo().openGroupPage();
+		
+		List<WebElement> checkboxes = driver.findElements(By.name("selected[]"));
+		for (WebElement checkbox : checkboxes){
+			String title=checkbox.getAttribute("title");
+			String name=title.substring("Select (".length(), title.length()-")".length());
+			cachedGroups.add(new GroupData().withName(name));
+		}
+		
+	}
+
+
+	public GroupHelper createGroup(GroupData group) {
+			manager.navigateTo().openGroupPage();
+		    initGroupCreation();
+		    fillGroupPage(group);
+		    submitGroupCreation();
+		    returnToGroupPage();
+		    rebuildCache();
+		    return this;
 	}
 	
-	
-
-	public void fillGroupPage(GroupData groupData) {
-	    type(By.name("group_name"), groupData.name);
-	    type(By.name("group_header"), groupData.header);
-	    type(By.name("group_footer"), groupData.footer);
-
-	}
-
-	public void deleteGroup(int index) {
+	public GroupHelper deleteGroup(int index) {
+		//manager.navigateTo().openGroupPage();
 		selectGroupByIndex(index);
-		click(By.name("delete"));
+		submitGroupRemoval();
+		returnToGroupPage();
+		rebuildCache();
+		return this;
 		
 	}
 
+
+
+	
+	public GroupHelper modifyGroup(int index, GroupData group) {
+		//manager.navigateTo().openGroupPage();
+		initGroupModification(index);
+		fillGroupPage(group);
+		submitGroupModification();
+		returnToGroupPage();
+		rebuildCache();
+		return this;
+	}
+
+
+	
+	
+	//---------------------------------------------------------------------------------------------------------------------
+	
+
+
+	
+	public GroupHelper initGroupCreation() {
+		//manager.navigateTo().mainPage();
+		manager.navigateTo().openGroupPage();
+		driver.findElement(By.name("new")).click();
+		return this;
+	}
+	
+	public GroupHelper initGroupModification(int index) {
+		//manager.navigateTo().mainPage();
+		//manager.navigateTo().openGroupPage();
+		selectGroupByIndex(index);
+		click(By.name("edit"));
+		return this;
+	}
+	
+	
+	
+
+	public GroupHelper fillGroupPage(GroupData groupData) {
+	    type(By.name("group_name"), groupData.getName());
+	    type(By.name("group_header"), groupData.getHeader());
+	    type(By.name("group_footer"), groupData.getFooter());
+	    return this;
+	}
+	
 	private void selectGroupByIndex(int index) {
 		click(By.xpath("//input[@name='selected[]']["+(index+1)+"]"));
 	}
 
-	public void initGroupModification(int index) {
-		selectGroupByIndex(index);
-		click(By.name("edit"));
-		
+
+	private void submitGroupRemoval() {
+		click(By.name("delete"));
+		cachedGroups = null;
 	}
 
 
 
-	public void submitGroupModification() {
+
+
+
+	public GroupHelper submitGroupModification() {
 		click(By.name("update"));
+		cachedGroups = null;
+		return this;
 		
 	}
 	
-	public void submitGroupCreation() {
+	public GroupHelper submitGroupCreation() {
 		driver.findElement(By.name("submit")).click();
+		cachedGroups = null;
+		return this;
 	}
 
-	public List<GroupData> getGroups() {
-		List<GroupData> groups = new ArrayList<GroupData>();
-		List<WebElement> checkboxes = driver.findElements(By.name("selected[]"));
-		for (WebElement checkbox : checkboxes){
-			GroupData group = new GroupData();
-			String title=checkbox.getAttribute("title");
-			//title.substring("Select (".length(), title.length()-")".length());
-			group.name=title.substring("Select (".length(), title.length()-")".length());
-			groups.add(group);
-		}
-		
-		return groups;
+	public void returnToGroupPage() {
+		click(By.linkText("group page"));
 	}
+	
+
 
 }

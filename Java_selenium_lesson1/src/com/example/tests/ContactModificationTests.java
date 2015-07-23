@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class ContactModificationTests extends TestBase {
 	@Test(dataProvider="randomValidContactGenerator")
 	public void modifySomeContact(UserData user){
-		app.getNavigationHelper().openMainPage();
+		app.navigateTo().mainPage();
 		
 		//save old state
 	    List<UserData> oldList = app.getContactHelper().getContacts();
@@ -23,7 +23,7 @@ public class ContactModificationTests extends TestBase {
 		user.firstName="векв";
 		user.lastName="пппп";
 		
-		app.contactHelper.fillUserAttributes(user);
+		app.contactHelper.fillUserAttributes(user,false);
 		app.getContactHelper().SubmitContactModification();
 		app.getContactHelper().returnToHomePage();
 		

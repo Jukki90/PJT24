@@ -1,5 +1,7 @@
 package com.example.fw;
 
+import static com.example.fw.ContactHelper.CREATION;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,6 +13,7 @@ import com.example.tests.GroupData;
 import com.example.tests.TestBase;
 import com.example.tests.UserData;
 import com.example.utils.SortedListOf;
+import java.util.Random;
 
 public class ContactHelper extends HelperBase {
 	public static boolean CREATION=true;
@@ -33,10 +36,8 @@ public class ContactHelper extends HelperBase {
 	
 	
 	private void rebuildCache(){
-		
 		cachedContacts= new SortedListOf<UserData>();  
-		  
-		  
+		
 		  WebElement table = driver.findElement(By.id("maintable")); 
 		// Now get all the TR elements from the table  
 		  List<WebElement> allRows = table.findElements(By.xpath("//tr[@name='entry']")); 
@@ -51,18 +52,47 @@ public class ContactHelper extends HelperBase {
 		   	contact.firstName=cells.get(2).getText();
 		   	contact.email=cells.get(3).getText();
 		   	contact.mobilePhone=cells.get(4).getText();
-		   	
-
 		   	cachedContacts.add(contact);
-		   	
-
 		    } 
 	}
 	
 	
+	public ContactHelper createContact(UserData user) {
+		
+		addNewUser();
+	    fillUserAttributes(user, CREATION);
+	    submitContactCreation();
+	    returnToHomePage();
+	    rebuildCache();
+	    return this;
+	}
+	
+	public ContactHelper modifyContact(int index,UserData user){
+		initContactModification(index);
+		user.firstName="‚ÂÍ‚"; //should change
+		user.lastName="ÔÔÔÔ";
+		fillUserAttributes(user,false);
+		SubmitContactModification();
+		returnToHomePage();
+		rebuildCache();
+		return this;
+		
+	}
+	
+	public ContactHelper removeContact(int index){
+		deleteContact(index); 
+	    returnToHomePage(); 
+
+		rebuildCache();
+		return this;
+	}
+	
+
+	
+	
 	//------Low-level methods--------------------------------------------
 
-	public void fillUserAttributes(UserData user, boolean formType) {
+	public ContactHelper fillUserAttributes(UserData user, boolean formType) {
 		type(By.name("firstname"), user.firstName);
 		type(By.name("lastname"), user.lastName);
 		type(By.name("address"), user.address);
@@ -84,34 +114,40 @@ public class ContactHelper extends HelperBase {
 				throw new Error("Group selector exists in contact modification form");
 			}
 		}
+		return this;
 	}
 
-	public void addNewUser() {
+	public ContactHelper addNewUser() {
 		click(By.linkText("add new"));
+		return this;
 	}
 
-	public void deleteContact(int index) {
+	public ContactHelper deleteContact(int index) {
 		initContactModification(index);
 		click(By.xpath("//input[@value='Delete']"));
+		return this;
 
 	}
 
-	public void SubmitContactModification() {
+	public ContactHelper SubmitContactModification() {
 		click(By.xpath("//input[@value='Update']"));
+		return this;
 	}
 
-	public void initContactModification(int index) {
+	public ContactHelper initContactModification(int index) {
 		++index;
 		click(By.xpath("(//img[@alt='Edit'])[" + index + "]"));
-
+		return this;
 	}
 
-	public void returnToHomePage() {
+	public ContactHelper returnToHomePage() {
 		click(By.linkText("home page"));
+		return this;
 	}
 
-	public void submitContactCreation() {
+	public ContactHelper submitContactCreation() {
 		driver.findElement(By.name("submit")).click();
+		return this;
 	}
 
 	

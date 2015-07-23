@@ -31,7 +31,6 @@ public class GroupHelper extends HelperBase{
 
 
 	private void rebuildCache() {
-		//SortedListOf<GroupData> cashedGroups = new SortedListOf<GroupData>();
 		cachedGroups = new SortedListOf<GroupData>();
 		manager.navigateTo().openGroupPage();
 		
@@ -56,7 +55,6 @@ public class GroupHelper extends HelperBase{
 	}
 	
 	public GroupHelper deleteGroup(int index) {
-		//manager.navigateTo().openGroupPage();
 		selectGroupByIndex(index);
 		submitGroupRemoval();
 		returnToGroupPage();
@@ -69,7 +67,6 @@ public class GroupHelper extends HelperBase{
 
 	
 	public GroupHelper modifyGroup(int index, GroupData group) {
-		//manager.navigateTo().openGroupPage();
 		initGroupModification(index);
 		fillGroupPage(group);
 		submitGroupModification();
@@ -87,15 +84,12 @@ public class GroupHelper extends HelperBase{
 
 	
 	public GroupHelper initGroupCreation() {
-		//manager.navigateTo().mainPage();
 		manager.navigateTo().openGroupPage();
 		driver.findElement(By.name("new")).click();
 		return this;
 	}
 	
 	public GroupHelper initGroupModification(int index) {
-		//manager.navigateTo().mainPage();
-		//manager.navigateTo().openGroupPage();
 		selectGroupByIndex(index);
 		click(By.name("edit"));
 		return this;

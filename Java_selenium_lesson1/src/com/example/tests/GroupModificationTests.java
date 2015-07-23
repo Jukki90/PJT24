@@ -12,7 +12,6 @@ import static org.hamcrest.Matchers.*;
 
 import org.testng.annotations.Test;
 
-import com.example.utils.SortedListOf;
 
 public class GroupModificationTests extends TestBase{
 	@Test(dataProvider="randomValidGroupGenerator")

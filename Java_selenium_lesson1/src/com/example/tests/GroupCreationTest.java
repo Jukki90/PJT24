@@ -1,17 +1,34 @@
 package com.example.tests;
 
 
+import static com.example.tests.GroupDataGenerator.generateRandomGroups;
+import static com.example.tests.GroupDataGenerator.loadGroupsFromCsvFile;
+import static com.example.tests.GroupDataGenerator.loadGroupsFromXmlFile;
+import static com.example.tests.TestBase.wrapGroupDataForProvider;
 import static org.junit.Assert.assertThat;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.Iterator;
+
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.example.fw.GroupHelper;
 import com.example.utils.SortedListOf;
+
 import static org.hamcrest.Matchers.*;
 
 public class GroupCreationTest extends TestBase {
+	
+	@DataProvider
+	public Iterator<Object[]> groupsFromFile() throws IOException {
+		return wrapGroupDataForProvider(loadGroupsFromXmlFile(new File("groups.xml"))).iterator();
+				
+	}
 
-@Test(dataProvider="randomValidGroupGenerator")
+
+@Test(dataProvider="groupsFromFile")
   public void testGroup—reationWithValidData(GroupData group) throws Exception {
 
     //save old state

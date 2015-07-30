@@ -87,13 +87,67 @@ public class UserData implements Comparable<UserData>{
 		i= this.lastName.toLowerCase().compareTo(other.lastName.toLowerCase());
 	    if (i != 0) return i;
 		return this.firstName.toLowerCase().compareTo(other.firstName.toLowerCase());
-		
-
-		
-		//return this.lastName.toLowerCase().compareTo(other.lastName.toLowerCase());
-		
+		//return this.lastName.toLowerCase().compareTo(other.lastName.toLowerCase());	
 	}
 	
+	
+	//-----With-methods -------
+	
+	public UserData withFirstName(String firstName) {
+		this.firstName = firstName;
+		return this;
+	}
+	
+	public UserData withLastName(String lastName) {
+		this.lastName = lastName;
+		return this;
+	}
+	
+	public UserData withEmail(String email) {
+		this.email = email;
+		return this;
+	}
+	
+	
+	public UserData withMobilePhone(String mobilePhone) {
+		this.mobilePhone = mobilePhone;
+		return this;
+	}
+	
+	public UserData withHomePhone(String homePhone) {
+		this.homePhone = homePhone;
+		return this;
+	}
+	
+	public UserData withAddress(String address) {
+		this.address = address;
+		return this;
+	}
+
+	
+	
+	//------Getters------------
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	
+	public String getLastName() {
+		return lastName;
+	}
+	
+	public String getAddress() {
+		return address;
+	}
+	
+	
+	public String getMobilePhone() {
+		return mobilePhone;
+	}
+	
+	public String getHomePhone() {
+		return homePhone;
+	}
 	
 	
 }

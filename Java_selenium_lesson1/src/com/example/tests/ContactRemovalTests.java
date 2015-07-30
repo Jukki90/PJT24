@@ -16,16 +16,12 @@ import static org.hamcrest.Matchers.*;
 public class ContactRemovalTests extends TestBase{
 	@Test
 	public void deleteSomeContact(){
-		//app.navigateTo().mainPage();
+
 		//save old state
 		SortedListOf<UserData> oldList = app.getContactHelper().getContacts();
 	    //actions
 	    Random rnd=new Random();
 	    int index = rnd.nextInt(oldList.size()-1);
-	    
-	    //app.getContactHelper().deleteContact(index); 
-	    //app.getContactHelper().returnToHomePage(); 
-	    
 	    app.getContactHelper().removeContact(index);
 
 	    

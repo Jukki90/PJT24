@@ -70,6 +70,8 @@ public class GroupData implements Comparable<GroupData> {
 			this.footer = footer;
 			return this;
 		}
+	
+	//----- Getters -----------------
 
 	public String getName() {
 		return name;

@@ -54,6 +54,14 @@ public class TestBase {
 		}
 		return list;
 	}
+	
+	public static List<Object[]> wrapContactDataForProvider(List<UserData> users) {
+		List<Object[]> list = new ArrayList<Object[]>() ;
+		for (UserData user : users){
+			list.add(new Object[]{user});
+		}
+		return list;
+	}
 
 	@DataProvider
 	public Iterator<Object[]> randomValidContactGenerator() {

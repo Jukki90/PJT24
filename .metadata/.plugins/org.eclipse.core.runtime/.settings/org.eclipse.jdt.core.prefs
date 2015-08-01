@@ -6,4 +6,5 @@ org.eclipse.jdt.core.compiler.compliance=1.8
 org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
 org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
 org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.XStream=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="D\:/Study/Java/xstream-distribution-1.4.8-bin.zip"/>\r\n\t<archive path\="D\:/Study/Java/xstream-distribution-1.4.8-bin/xstream-1.4.8/lib/xstream-1.4.8.jar"/>\r\n\t<archive path\="D\:/Study/Java/xstream-distribution-1.4.8-bin/xstream-1.4.8/lib/xstream-benchmark-1.4.8.jar"/>\r\n\t<archive path\="D\:/Study/Java/xstream-distribution-1.4.8-bin/xstream-1.4.8/lib/xstream-hibernate-1.4.8.jar"/>\r\n</userlibrary>\r\n
 org.eclipse.jdt.core.userLibrary.selenium=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Users/Jukki/Downloads/selenium-server-standalone-2.45.0.jar"/>\r\n</userlibrary>\r\n

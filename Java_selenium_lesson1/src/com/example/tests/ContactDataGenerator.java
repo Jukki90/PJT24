@@ -61,6 +61,36 @@ public class ContactDataGenerator {
 		}
 		
 		
+		//--------- Read Methods --------------
+		public static List<UserData> loadContactsFromCsvFile(File file) throws IOException{
+			List<UserData> list = new ArrayList<UserData>();
+			FileReader reader = new FileReader(file);
+			BufferedReader bufferedReader = new BufferedReader(reader);
+			String line = bufferedReader.readLine();
+			while(line!=null){
+				String[] part = line.split(",");
+				UserData user = new UserData()
+				.withFirstName(part[0])
+				.withLastName(part[1])
+				.withEmail(part[2])
+				.withMobilePhone(part[3])
+				.withHomePhone(part[4])
+				.withAddress(part[5]);
+				
+				list.add(user);
+				line = bufferedReader.readLine();
+			}
+			bufferedReader.close();
+			return list;
+		}
+		
+		
+		public static List<UserData> loadContactsFromXmlFile(File file) throws IOException{
+			XStream xstream = new XStream();
+			xstream.alias("user", UserData.class);
+			return (List<UserData>) xstream.fromXML(file);
+			
+		}
 		
 		//------- Generate methods --------------------------
 		

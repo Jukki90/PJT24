@@ -10182,3 +10182,836 @@ java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\User
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 53066 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1926672469\testng-customsuite.xml
 java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 53066 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1926672469\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 06:07:23.484
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54082 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1956128064\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 54082 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1956128064\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 06:17:10.194
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54999 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--36741684\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 54999 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--36741684\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 06:28:02.242
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55549 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-87816269\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 55549 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-87816269\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 06:45:30.409
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55835 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-554326511\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 55835 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-554326511\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 07:28:33.684
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56514 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--871612041\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 56514 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--871612041\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 07:40:10.734
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57288 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-2139624963\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57288 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-2139624963\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 07:45:12.442
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57614 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-2134652232\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57614 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-2134652232\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 07:47:33.712
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57925 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1191350413\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 57925 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1191350413\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 07:53:46.295
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58025 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1392248467\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58025 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1392248467\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 07:57:14.753
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58362 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-692426698\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58362 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-692426698\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 07:58:08.690
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58422 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-922768696\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 58422 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-922768696\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:19:52.086
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59290 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-196469077\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 59290 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-196469077\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:22:09.827
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59745 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--774036215\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 59745 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--774036215\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:29:38.904
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59865 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--778828870\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 59865 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--778828870\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:31:56.618
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60195 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--18013373\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 60195 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--18013373\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:34:02.680
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60260 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-479298389\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 60260 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-479298389\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:38:05.639
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60377 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1713509919\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 60377 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1713509919\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:45:41.084
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60690 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1960643704\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 60690 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1960643704\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:47:27.878
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60760 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1695671066\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 60760 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1695671066\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:48:45.806
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60803 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--534808658\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 60803 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--534808658\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:49:01.892
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60839 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1667909443\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 60839 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1667909443\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:49:45.058
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61126 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-808657880\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 61126 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-808657880\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:50:29.206
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61213 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--41975966\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 61213 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--41975966\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-23 20:52:55.066
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61534 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-172560679\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 61534 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-172560679\testng-customsuite.xml
+
+!ENTRY org.eclipse.help.base 4 0 2015-07-24 06:59:08.249
+!MESSAGE Help index declared, but missing for plugin org.eclipse.wst.jsdt.doc.
+
+!ENTRY org.eclipse.help.base 4 4 2015-07-24 06:59:18.059
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.059
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/manipulation/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.059
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/descriptors/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.059
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/refactoring/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.059
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_codeFormatter.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.059
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/model/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/folding/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_documentationProvider.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/overview-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javadocCompletionProcessor.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/util/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/dialogs/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/connect/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_sourcePathProvider.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/request/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_queryParticipants.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_debug_core_launchingConnectors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/hover/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/msdn/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_quickFixProcessors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/event/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_foldingStructureProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/actions/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/shell/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_inferrenceSupport.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaCompletionProposalSorters.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/formatter/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaEditorTextHovers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/launching/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/infer/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_debug_core_breakpointParticipants.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/eval/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/rewrite/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/ast/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_JsGlobalScopeContainerPage.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_JsGlobalScopeVariableInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaElementFilters.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/breakpoints/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_JsGlobalScopeContainerInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_JsGlobalScopeUIInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_validationParticipant.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaCompletionProposalComputer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/project/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_quickAssistProcessors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/wizards/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_classpathAttributeConfiguration.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-07-24 06:59:18.060
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/package-summary.html cannot be opened.
+!SESSION 2015-07-24 08:07:15.962 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-24 08:07:59.142
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-24 08:07:59.147
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-25 11:45:51.683 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-25 11:46:31.832
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-25 11:46:31.886
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-07-25 22:36:10.219
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64630 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-77991569\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 64630 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-77991569\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-25 22:39:08.223
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64991 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-918896133\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 64991 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-918896133\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-25 22:42:52.938
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65121 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--796023304\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 65121 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--796023304\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-25 22:44:57.685
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65172 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1982403377\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 65172 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1982403377\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-25 22:50:44.002
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65234 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1181077579\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 65234 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1181077579\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-25 23:22:08.687
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50322 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-791424346\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 50322 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-791424346\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-26 10:31:16.199
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59276 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1426476348\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 59276 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1426476348\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-26 11:53:44.113
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63069 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1259531223\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 63069 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1259531223\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-26 11:56:51.276
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63520 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--725728773\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar org.testng.remote.RemoteTestNG -serport 63520 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--725728773\testng-customsuite.xml
+!SESSION 2015-07-26 12:03:46.039 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-26 12:07:27.989
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-26 12:07:28.027
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-26 18:55:47.543 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-26 18:56:48.200
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-26 18:56:48.237
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-26 19:07:14.232 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-26 19:08:23.553
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-26 19:08:23.729
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-26 21:46:14.817 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-26 21:46:51.244
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-26 21:46:51.351
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-07-26 21:56:11.193
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50110 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--907588368\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 50110 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--907588368\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-26 22:59:45.932
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53399 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 53399 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-28 08:27:51.799
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49296 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1439574670\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 49296 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1439574670\testng-customsuite.xml
+!SESSION 2015-07-29 20:41:53.875 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-29 20:43:44.176
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-29 20:43:44.334
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 20:44:10.908
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49413 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1878253100\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 49413 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1878253100\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 20:49:57.373
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49513 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-2063223732\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 49513 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-2063223732\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 20:51:25.940
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49521 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-804027070\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 49521 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-804027070\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 20:56:59.246
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49688 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1435691174\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 49688 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1435691174\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 20:58:06.177
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49702 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1819193882\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 49702 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1819193882\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:01:16.244
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49745 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-209064064\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 49745 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-209064064\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:02:10.973
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49756 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2058753223\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 49756 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2058753223\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:06:41.505
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49853 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1327035454\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 49853 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1327035454\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:10:18.189
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50594 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2026452634\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 50594 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2026452634\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:16:17.188
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50865 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--931319347\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 50865 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--931319347\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:18:23.258
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51020 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--294777744\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 51020 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--294777744\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:19:54.761
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51156 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--783854893\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 51156 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--783854893\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:26:14.372
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51191 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1788133245\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 51191 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1788133245\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:30:38.218
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51227 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1548392248\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 51227 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1548392248\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:34:09.392
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52852 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-998340883\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 52852 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-998340883\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:37:32.019
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52884 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-188519425\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 52884 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-188519425\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:45:15.234
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53576 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1506469167\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 53576 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1506469167\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 21:53:31.582
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54960 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--960975137\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 54960 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--960975137\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 22:03:20.428
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56170 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1134053788\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 56170 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-1134053788\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-29 22:12:20.306
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57027 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--217603035\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 57027 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--217603035\testng-customsuite.xml
+!SESSION 2015-07-30 07:52:50.003 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-07-30 08:05:45.016
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-30 08:06:00.350
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-30 08:06:00.350
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-30 21:12:14.400 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-07-30 21:12:18.722
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-30 21:12:31.999
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-30 21:12:31.999
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-07-31 00:29:19.882
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55021 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2055455377\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 55021 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--2055455377\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-07-31 01:32:18.126
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56735 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--698564493\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 56735 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--698564493\testng-customsuite.xml
+!SESSION 2015-08-01 11:01:20.345 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-08-01 11:01:27.393
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-01 11:01:47.099
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-01 11:01:47.099
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jukki'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-08-01 11:02:09.943
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57549 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1752204379\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 57549 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse--1752204379\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-08-01 11:03:05.245
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Study\Java\xstream-distribution-1.4.8-bin.zip D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar D:\Study\Java\xpp3_min-1.1.4c.jar D:\Study\Java\xmlpull-1.1.3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57630 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-147593745\testng-customsuite.xml
+java -ea -classpath D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\bin:C:\Users\Jukki\Downloads\selenium-server-standalone-2.45.0.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Study\Java\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Study\Java\xstream-distribution-1.4.8-bin.zip:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-benchmark-1.4.8.jar:D:\Study\Java\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream-hibernate-1.4.8.jar:D:\Study\Java\xpp3_min-1.1.4c.jar:D:\Study\Java\xmlpull-1.1.3.1.jar org.testng.remote.RemoteTestNG -serport 57630 -d D:\Study\Java\GitHub\PJT24\Java_selenium_lesson1\test-output C:\Users\Jukki\AppData\Local\Temp\testng-eclipse-147593745\testng-customsuite.xml

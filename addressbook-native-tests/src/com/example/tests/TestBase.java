@@ -35,7 +35,7 @@ public class TestBase {
 	    
 	  }
 
-	@AfterTest
+	//@AfterTest
 	public void tearDown() throws Exception {
 		//app.stop();
 		ApplicationManager.getInstance(null).stop();

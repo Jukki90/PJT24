@@ -10,8 +10,8 @@ import com.jacob.com.LibraryLoader;
 public class AutoItHelper extends HelperBase {
 
     static {
-       // File jacob = new File("./lib/jacob-1.15-M4-x64.dll");
-    	 File jacob = new File("./lib/jacob-1.18-M3-x64.dll");
+        //File jacob = new File("./lib/jacob-1.15-M4-x86.dll");
+    	File jacob = new File("D:/Study/Java/GitHub/PJT24/addressbook-native-tests/lib/jacob-1.18-x64.dll");
         System.setProperty(LibraryLoader.JACOB_DLL_PATH, jacob.getAbsolutePath());
     }
 
@@ -27,7 +27,7 @@ public class AutoItHelper extends HelperBase {
     private final AutoItX aux;
 
     public AutoItHelper winWaitAndActivate(String winTitle, String winText, int timeout) {
-        this.winTitle = winTitle;
+    	this.winTitle = winTitle;
         this.winText = winText;
         aux.winWait(winTitle, winText, timeout);
         aux.winActivate(winTitle, winText);

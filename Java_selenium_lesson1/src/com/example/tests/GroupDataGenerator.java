@@ -44,13 +44,7 @@ public class GroupDataGenerator {
 		
 				
 	}
-/*
-	@DataProvider
-	public Iterator<Object[]> groupsFromFile() {
-		return wrapGroupDataForProvider(loadGroupsFromCsvFile("groups.txt")).iterator();
-				
-	}
-*/
+
 	//------- Save Methods ------------
 	private static void saveGroupToCsvFile(List<GroupData> groups, File file)throws IOException  {
 			FileWriter writer = new FileWriter(file);

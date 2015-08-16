@@ -15,7 +15,7 @@ import com.example.tests.UserData;
 import com.example.utils.SortedListOf;
 import java.util.Random;
 
-public class ContactHelper extends HelperBase {
+public class ContactHelper extends WebDriverHelperBase {
 	public static boolean CREATION=true;
 	public static boolean MODIFICATION=false;
 	
@@ -24,20 +24,10 @@ public class ContactHelper extends HelperBase {
 	}
 	
 	//------High-level methods--------------------------------------------
-	
-	public SortedListOf<UserData> cachedContacts; 
 		
-		public SortedListOf<UserData> getContacts() {
-			if (cachedContacts == null){
-				rebuildCache();
-			}
-			return cachedContacts;
-		}
-	
-	
-	private void rebuildCache(){
-		cachedContacts= new SortedListOf<UserData>();  
-		
+	public SortedListOf<UserData> getUIContacts(){
+		//cachedContacts= new SortedListOf<UserData>();  
+		SortedListOf<UserData> contacts = new SortedListOf<UserData>();
 		  WebElement table = driver.findElement(By.id("maintable")); 
 		// Now get all the TR elements from the table  
 		  List<WebElement> allRows = table.findElements(By.xpath("//tr[@name='entry']")); 
@@ -47,15 +37,14 @@ public class ContactHelper extends HelperBase {
 			  UserData contact = new UserData();
 			  
 		   List<WebElement> cells = row.findElements(By.tagName("td")); 
-		   	contact.id=cells.get(0).getText();
 		   	contact.lastName=cells.get(1).getText();
 		   	contact.firstName=cells.get(2).getText();
 		   	contact.email=cells.get(3).getText();
 		   	contact.mobilePhone=cells.get(4).getText();
-		   	cachedContacts.add(contact);
+		   	contacts.add(contact);
 		    } 
+		  return contacts;
 	}
-	
 	
 	public ContactHelper createContact(UserData user) {
 		
@@ -63,7 +52,7 @@ public class ContactHelper extends HelperBase {
 	    fillUserAttributes(user, CREATION);
 	    submitContactCreation();
 	    returnToHomePage();
-	    rebuildCache();
+	    manager.getModel().addContact(user);
 	    return this;
 	}
 	
@@ -74,7 +63,7 @@ public class ContactHelper extends HelperBase {
 		fillUserAttributes(user,false);
 		SubmitContactModification();
 		returnToHomePage();
-		rebuildCache();
+		manager.getModel().removeContact(index).addContact(user);
 		return this;
 		
 	}
@@ -82,8 +71,7 @@ public class ContactHelper extends HelperBase {
 	public ContactHelper removeContact(int index){
 		deleteContact(index); 
 	    returnToHomePage(); 
-
-		rebuildCache();
+	    manager.getModel().removeContact(index);
 		return this;
 	}
 	
@@ -105,15 +93,15 @@ public class ContactHelper extends HelperBase {
 		selectByText(By.name("bday"), user.birthDay);
 		selectByText(By.name("bmonth"), user.birthMonth);
 
-		selectByText(By.name("new_group"), user.group);
-		
+	//	selectByText(By.name("new_group"), user.group);
+		/*
 		if (formType==CREATION){
 			
 		}else{
 			if (driver.findElements(By.name("new_group")).size()!=0){
 				throw new Error("Group selector exists in contact modification form");
 			}
-		}
+		}*/
 		return this;
 	}
 

@@ -11,36 +11,25 @@ import com.example.tests.TestBase;
 
 import com.example.utils.SortedListOf;
 
-public class GroupHelper extends HelperBase{
+public class GroupHelper extends WebDriverHelperBase{
 	public GroupHelper(ApplicationManager manager) {
 		super(manager);
-		
 	}
 	
-	
-	public SortedListOf<GroupData> cachedGroups; 
-	
-	public SortedListOf<GroupData> getGroups() {
-		if (cachedGroups == null){
-			rebuildCache();
-		}
-		
-		return cachedGroups;
-		
-	}
 
 
-	private void rebuildCache() {
-		cachedGroups = new SortedListOf<GroupData>();
+	
+	public SortedListOf<GroupData> getUIGroups() {
+		SortedListOf<GroupData> groups = new SortedListOf<GroupData>();
 		manager.navigateTo().openGroupPage();
 		
 		List<WebElement> checkboxes = driver.findElements(By.name("selected[]"));
 		for (WebElement checkbox : checkboxes){
 			String title=checkbox.getAttribute("title");
 			String name=title.substring("Select (".length(), title.length()-")".length());
-			cachedGroups.add(new GroupData().withName(name));
+			groups.add(new GroupData().withName(name));
 		}
-		
+		return groups;
 	}
 
 
@@ -50,7 +39,9 @@ public class GroupHelper extends HelperBase{
 		    fillGroupPage(group);
 		    submitGroupCreation();
 		    returnToGroupPage();
-		    rebuildCache();
+		    // update model
+		    manager.getModel().addGroup(group);
+		    
 		    return this;
 	}
 	
@@ -58,7 +49,8 @@ public class GroupHelper extends HelperBase{
 		selectGroupByIndex(index);
 		submitGroupRemoval();
 		returnToGroupPage();
-		rebuildCache();
+		manager.getModel().removeGroup(index);
+		
 		return this;
 		
 	}
@@ -71,7 +63,8 @@ public class GroupHelper extends HelperBase{
 		fillGroupPage(group);
 		submitGroupModification();
 		returnToGroupPage();
-		rebuildCache();
+		manager.getModel().removeGroup(index).addGroup(group);
+		
 		return this;
 	}
 
@@ -112,24 +105,21 @@ public class GroupHelper extends HelperBase{
 
 	private void submitGroupRemoval() {
 		click(By.name("delete"));
-		cachedGroups = null;
+		
 	}
-
-
-
 
 
 
 	public GroupHelper submitGroupModification() {
 		click(By.name("update"));
-		cachedGroups = null;
+		
 		return this;
 		
 	}
 	
 	public GroupHelper submitGroupCreation() {
 		driver.findElement(By.name("submit")).click();
-		cachedGroups = null;
+		
 		return this;
 	}
 

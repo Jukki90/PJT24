@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Random;
 
 import org.testng.annotations.Test;
+
 import com.example.utils.SortedListOf;
 
 import static org.hamcrest.Matchers.*;
@@ -19,7 +20,8 @@ public class ContactModificationTests extends TestBase {
 		app.navigateTo().mainPage();
 		
 		//save old state
-		SortedListOf<UserData> oldList = app.getContactHelper().getContacts();
+		SortedListOf<UserData> oldList = new SortedListOf<UserData>(app.getHibernateHelper().listContacts());
+	    
 	    //actions
 	   
 	    Random rnd=new Random();
@@ -29,7 +31,7 @@ public class ContactModificationTests extends TestBase {
 		app.getContactHelper().modifyContact(index, user);
 		
 		//save new state
-		SortedListOf<UserData> newList = app.getContactHelper().getContacts();
+		SortedListOf<UserData> newList = app.getModel().getContacts();
 	    
 	    //compare states
 	    assertThat(newList, equalTo(oldList.without(index).withAdded(user)));

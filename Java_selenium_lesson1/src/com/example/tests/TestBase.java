@@ -22,15 +22,20 @@ import static com.example.tests.ContactDataGenerator.generateRandomNumber;
 public class TestBase {
 	
 	protected static ApplicationManager app;
+	private int checkCounter;
+	private int checkFrequency;
 	
 
 	
 	@BeforeTest
 	public void setUp() throws Exception {
+
+		String configFile = System.getProperty("configFile", "application.properties");
 		Properties properties = new Properties();
-		properties.load(new FileReader(new File("application.properties")));
+		properties.load(new FileReader(new File(configFile)));
 		app=new ApplicationManager(properties);
-	    
+		checkCounter = 0;
+		checkFrequency  = Integer.parseInt(properties.getProperty("check.frequency", "0"));
 	  }
 
 	@AfterTest
@@ -72,11 +77,15 @@ public class TestBase {
 			user.firstName=generateRandomString();
 			user.lastName=generateRandomString();
 			user.email=generateRandomString();
+			user.email2=generateRandomString();
 			user.mobilePhone=generateRandomString();
 			user.homePhone=generateRandomString();
+			user.workPhone=generateRandomString();
 			user.birthDay=generateRandomNumber(30);
 			user.birthMonth=generateRandomMonth();
 			user.birthYear=generateRandomNumber(2000);
+			user.address=generateRandomString();
+			user.address2=generateRandomString();
 			//user.group="Rob";
 			user.address2=generateRandomString();
 			list.add(new Object[]{user});
@@ -87,15 +96,6 @@ public class TestBase {
 	}
 
 	
-/*	
-	public String generateRandomNumber(int max) {
-		Random rnd= new Random();
-		String str="";
-		str+=(rnd.nextInt(max)+1);
-		return str;
-	}
-	
-*/	
 	
 	public String generateRandomMonth() {
 		String[] arr={
@@ -117,6 +117,17 @@ public class TestBase {
 		
 		Random rnd= new Random();
 		return arr[rnd.nextInt(11)];
+	}
+	
+	protected boolean wantToCheck(){
+		checkCounter++;
+		if(checkCounter>checkFrequency){
+			checkCounter = 0;
+			return true;
+			
+		}else{
+			return false;
+		}
 	}
 
 
